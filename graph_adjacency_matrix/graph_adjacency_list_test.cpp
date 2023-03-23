@@ -2,7 +2,7 @@
 
 int main()
 {
-    /* 初始化无向图 */
+    //初始化无向图
     vector<Vertex *> v = valsToVets(vector<int>{1, 3, 2, 5, 4});
     vector<vector<Vertex *>> edges = {{v[0], v[1]}, {v[0], v[3]}, {v[1], v[2]}, {v[2], v[3]}, {v[2], v[4]}, {v[3], v[4]}};
     GraphAdjList graph(edges);
