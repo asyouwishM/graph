@@ -10,7 +10,7 @@ struct Vertex
     Vertex(int x) : val(x) {}
 };
 //输入值列表 vals ，返回顶点列表 vets
-vector<Vertex*> valsTovets(vector<int> vals)
+vector<Vertex*> valsToVets(vector<int> vals)
 {
     vector<Vertex *> vets;
     for(int val : vals)

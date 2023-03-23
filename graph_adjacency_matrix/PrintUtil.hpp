@@ -2,7 +2,10 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <queue>
+#include <stack>
 #include <sstream>
+#include"ListNode.hpp"
 using namespace std;
 class PrintUtil
 {
@@ -64,8 +67,8 @@ public:
         return "[" + strJoin(", ", list) + "]";
     }
     //print a vector
-    template<typename T>
-    static void printVector(vector<T> &list)
+    template <typename T>
+    static void printVector(vector<T> list)
     {
         cout << getVectorString(list) << '\n';
     }
@@ -90,5 +93,6 @@ public:
     //     }
     //     cout << strJoin("->", list) << '\n';
     // }
+
 };
     
